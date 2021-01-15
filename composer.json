@@ -1,0 +1,13 @@
+{
+    "name": "AllansTihonovs/productsApi",
+    "description": "Package for test",
+    "type": "composer-plugin",
+    "authors": [
+        {
+            "name": "Allans Tihonovs",
+            "email": "allanstihonovs@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
