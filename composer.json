@@ -15,8 +15,13 @@
     "extra": {
         "laravel": {
             "providers": [
-                "allans\\productapi\\ProductApiServiceProvider"
+                "Allans\\Productapi\\ProductApiServiceProvider"
             ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Allans\\productapi\\": "src"
         }
     }
 }
