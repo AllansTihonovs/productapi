@@ -1,6 +1,6 @@
 <?php
 
-namespace Allans\productApi;
+namespace allans\productapi;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -13,8 +13,8 @@ class ProductApiServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('Allans\productApi\ProductsApiController');
-        $this->loadViewsFrom(__DIR__.'/views', 'productApi');
+        $this->app->make('allans\productapi\ProductsApiController');
+        $this->loadViewsFrom(__DIR__.'/views', 'productapi');
     }
 
     /**

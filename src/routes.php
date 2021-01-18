@@ -1,9 +1,5 @@
 <?php
 
-Route::get('productsApi', function(){
-    echo 'Hello from the calculator package!';
-});
-
 //API routes
 Route::get('getProducts', 'Allans\productApi\ProductsApiController@getProducts');
 Route::get('getProductAttributes', 'Allans\productApi\ProductsApiController@getProductAttributes');

@@ -1,6 +1,6 @@
 <?php
 
-namespace Allans\productApi;
+namespace allans\productapi;
 
 use App\Http\Controllers\Controller;
 use App\Models\ProductAttributes;
@@ -47,7 +47,7 @@ class ProductsApiController extends Controller
     public function getProductsViewEloquent(){
         $productsWithAttributes = Products::with('productAttributes')->get();
 
-        return view('productApi::products', compact('productsWithAttributes'));
+        return view('productapi::products', compact('productsWithAttributes'));
     }
 
     public function getProductsViewSQL() {
@@ -64,6 +64,6 @@ class ProductsApiController extends Controller
             $product->attribute_key = $arr;
         }
 
-        return view('productApi::productsSQL', compact('productsWithAttributes'));
+        return view('productapi::productsSQL', compact('productsWithAttributes'));
     }
 }

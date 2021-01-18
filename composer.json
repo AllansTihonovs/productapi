@@ -1,5 +1,5 @@
 {
-    "name": "allans-tihonovs/products-api",
+    "name": "allans/productapi",
     "description": "Package for test",
     "type": "library",
     "authors": [
@@ -12,9 +12,11 @@
     "require": {
         "php": ">=7.2.5"
     },
-    "autoload": {
-        "psr-0": {
-            "Monolog": "src"
+    "extra": {
+        "laravel": {
+            "providers": [
+                "allans\\productapi\\ProductApiServiceProvider"
+            ]
         }
     }
 }
