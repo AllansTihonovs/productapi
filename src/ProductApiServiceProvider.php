@@ -13,7 +13,7 @@ class ProductApiServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('allans\productapi\ProductsApiController');
+        $this->app->make('Allans\Productapi\ProductsApiController');
         $this->loadViewsFrom(__DIR__.'/views', 'productapi');
     }
 
