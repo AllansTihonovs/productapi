@@ -1,6 +1,6 @@
 <?php
 
-namespace allans\productapi;
+namespace Allans\Productapi;
 
 use Illuminate\Support\ServiceProvider;
 

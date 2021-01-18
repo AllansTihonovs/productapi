@@ -1,6 +1,6 @@
 <?php
 
-namespace allans\productapi;
+namespace Allans\Productapi;
 
 use App\Http\Controllers\Controller;
 use App\Models\ProductAttributes;

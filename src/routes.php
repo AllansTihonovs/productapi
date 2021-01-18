@@ -1,12 +1,12 @@
 <?php
 
 //API routes
-Route::get('getProducts', 'Allans\productApi\ProductsApiController@getProducts');
-Route::get('getProductAttributes', 'Allans\productApi\ProductsApiController@getProductAttributes');
-Route::get('getProductWithAttributes', 'Allans\productApi\ProductsApiController@getProductWithAttributes');
+Route::get('getProducts', 'allans\productapi\ProductsApiController@getProducts');
+Route::get('getProductAttributes', 'allans\productapi\ProductsApiController@getProductAttributes');
+Route::get('getProductWithAttributes', 'allans\productapi\ProductsApiController@getProductWithAttributes');
 
-Route::get('getProductsViewEloquent', 'Allans\productApi\ProductsApiController@getProductsViewEloquent');
-Route::get('getProductsViewSQL', 'Allans\productApi\ProductsApiController@getProductsViewSQL');
+Route::get('getProductsViewEloquent', 'allans\productapi\ProductsApiController@getProductsViewEloquent');
+Route::get('getProductsViewSQL', 'allans\productapi\ProductsApiController@getProductsViewSQL');
 
 
 //Product routes
